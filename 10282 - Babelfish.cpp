@@ -18,7 +18,7 @@ int main()
     }
 
     while(getline(cin , a)){
-		if(a.length()==0) break;
+	if(a.length()==0) break;
         if(mp.find(a)!=mp.end())
             cout << mp[a] << endl;
         else cout << "eh" << endl;
