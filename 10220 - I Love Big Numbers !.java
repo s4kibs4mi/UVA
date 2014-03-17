@@ -20,7 +20,7 @@ public class Main {
 			BigInteger resultAndRemainder[];
 			do {
 		        resultAndRemainder = r.divideAndRemainder(BigInteger.TEN);
-		        sum += Math.abs(resultAndRemainder[1].intValue());
+		        sum += resultAndRemainder[1].intValue();
 		        r = resultAndRemainder[0];
 		    } while (r.compareTo(BigInteger.ZERO) != 0);
 			System.out.println(sum);
