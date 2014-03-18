@@ -1,5 +1,3 @@
-// Status : In Queue
-
 #include <iostream>
 #include <cstdio>
 #include <map>
